@@ -1,10 +1,13 @@
 import React from "react";
+import {Col, Row} from 'reactstrap'
 
 function HomePage() {
     return (
-        <div>
+        <Row>
+            <Col>
             Hello From Home Page
-        </div>
+            </Col>
+        </Row>
     )
 }
 
